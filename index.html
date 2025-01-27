@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -19,23 +20,26 @@
 
 </style>
 <body class=".font-roboto">
-    <header class="bg-[#FFFBF0] px-4 ">
+    <header class="bg-[#FFFBF0] px-4 pb-11 md:pb-40">
       <!-- header content -->
       <div class="max-w-[1500px] m-auto">
                  <!-- navbar start here -->
-                 <nav class="flex justify-between items-center h-24">
+                 <nav class="flex justify-between items-center h-28">
                   <!-- logo section -->
-                   <div class="max-w-72">
+                   <div class="max-w-56 md:max-w-72">
                      <img src="icons/logo.png" alt="" class="">
                    </div>
                    <!-- menu section -->
                     <div class="">
-                     <ul class="flex gap-14">
-                        <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700">Home</a></li>
-                        <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700">Product</a></li>
-                        <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700">About Us</a></li>
-                        <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700">Contact Us</a></li>
-                     </ul>
+                     <i class="fa fa-bars text-4xl md:hidden"></i>
+                     <div class="hidden md:block">
+                        <ul class="flex gap-14">
+                           <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700 hover:text-orange-500 ">Home</a></li>
+                           <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700 hover:text-orange-500">Product</a></li>
+                           <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700 hover:text-orange-500">About Us</a></li>
+                           <li class=""><a href="#" class="font-roboto font-medium leading-6 text-gray-700 hover:text-orange-500">Contact Us</a></li>
+                        </ul>
+                     </div>
                     </div>
                 </nav>
                  <!-- banner start -->
@@ -63,7 +67,7 @@
         <!-- Women Jacket section -->
          <div class="">
             <!-- Women jacket title -->
-            <h2 class="uppercase font-bebas-neue text-5xl text-gray-800 text-center md:text-left">Women Jacket</h2>
+            <h2 class="uppercase font-bebas-neue text-5xl text-gray-800 text-center mt-12 mb-6 md:text-left">Women Jacket</h2>
             <!-- women jacket cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                            <!-- card 1 -->
@@ -158,7 +162,7 @@
          <!-- Man Jacket section -->
          <div class="">
             <!-- Man jacket title -->
-            <h2 class="uppercase font-bebas-neue text-5xl text-gray-800 text-center md:text-left">Man Jacket</h2>
+            <h2 class="uppercase font-bebas-neue text-5xl text-gray-800 text-center mt-12 mb-6  md:text-left">Man Jacket</h2>
             <!-- women jacket cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                            <!-- card 4 -->
@@ -240,7 +244,7 @@
                      </p>
                      <div class="flex justify-between items-center mt-3">
                         <h2 class="text-orange-400 font-black font-roboto text-4xl">$298</h2>
-                        <button class="bg-gradient-to-tr from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-xl font-medium text-white">
+                        <button class="hover:bg-sky-700 bg-gradient-to-tr from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-xl font-medium text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-white">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                               </svg>
